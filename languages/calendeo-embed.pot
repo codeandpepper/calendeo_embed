@@ -1,0 +1,50 @@
+# Translations for Calendeo Embed.
+# Copyright (C) 2024 Calendeo
+# This file is distributed under the same license as the Calendeo Embed plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Calendeo Embed 1.0.0\n"
+"Report-Msgid-Bugs-To: kontakt@calendeo.pl\n"
+"POT-Creation-Date: 2024-04-25 00:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: calendeo-embed.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Slug"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "e.g. calendeo-form-123"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Or full URL (overrides slug)"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Width (%)"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Height (px)"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Calendeo — enter a slug or URL in the sidebar →"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Calendeo"
+msgstr ""
+
+#: calendeo-embed.php
+msgid "Calendeo Calendar"
+msgstr ""

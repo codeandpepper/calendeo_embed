@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "calendeo/embed",
+  "title": "Calendeo Calendar",
+  "category": "embed",
+  "icon": "calendar-alt",
+  "description": "Embed Calendeo booking calendar using slug or URL",
+  "keywords": ["calendar", "booking", "embed"],
+  "textdomain": "calendeo-embed",
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "default": ""
+    },
+    "height": {
+      "type": "number",
+      "default": 700
+    },
+    "width": {
+      "type": "number",
+      "default": 100
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"]
+  },
+  "render": "file:./render.php"
+}
