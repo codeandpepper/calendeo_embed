@@ -31,12 +31,6 @@ function calendeo_embed_deactivate(): void {
     // intentionally empty — options preserved for re-activation
 }
 
-add_action('plugins_loaded', 'calendeo_embed_load_textdomain');
-
-function calendeo_embed_load_textdomain(): void {
-    load_plugin_textdomain('calendeo-embed', false, dirname(plugin_basename(__FILE__)) . '/languages');
-}
-
 // --- Settings ---
 
 add_action('admin_menu', 'calendeo_embed_admin_menu');
@@ -146,7 +140,7 @@ function calendeo_embed_enqueue_editor_assets(): void {
         'calendeo-embed-block',
         false,
         ['wp-blocks', 'wp-element', 'wp-block-editor', 'wp-components'],
-        null,
+        CALENDEO_EMBED_VERSION,
         true
     );
     wp_enqueue_script('calendeo-embed-block');
