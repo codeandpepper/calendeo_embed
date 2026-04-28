@@ -4,7 +4,7 @@ Tags: calendar, booking, appointments, scheduling, shortcode, gutenberg
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,9 @@ Yes, we follow WordPress security best practices including proper input sanitiza
 
 == Changelog ==
 
+= 1.0.1 =
+* Maintenance release
+
 = 1.0.0 =
 * Initial release
 * Shortcode support: [calendeo slug="..."]
@@ -107,6 +110,9 @@ Yes, we follow WordPress security best practices including proper input sanitiza
 * Security hardening (nonce, sanitization, escaping)
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Maintenance release. Recommended update.
 
 = 1.0.0 =
 Initial release. No upgrades needed yet.

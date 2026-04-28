@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Calendeo Embed 1.0.0\n"
+"Project-Id-Version: Calendeo Embed 1.0.1\n"
 "Report-Msgid-Bugs-To: kontakt@calendeo.pl\n"
 "POT-Creation-Date: 2024-04-25 00:00:00+0000\n"
 "MIME-Version: 1.0\n"

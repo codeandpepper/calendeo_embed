@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Calendeo Embed
  * Description: Embed your Calendeo booking calendar on any page using a shortcode or Gutenberg block. Requires a Calendeo account.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Calendeo
  * Author URI:  https://calendeo.pl
  * License:     GPLv2 or later
@@ -16,7 +16,7 @@
 
 defined('ABSPATH') || exit;
 
-define('CALENDEO_EMBED_VERSION', '1.0.0');
+define('CALENDEO_EMBED_VERSION', '1.0.1');
 define('CALENDEO_EMBED_URL', plugin_dir_url(__FILE__));
 
 register_activation_hook(__FILE__, 'calendeo_embed_activate');
